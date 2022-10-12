@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+.clr {
+    clear: both;
+}
+nav {
+    /* 3ayz as2l 3ala de */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+.home {
+    background-image: url(../Images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.img-1 {
+    width: 170px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.img-1 img {
+    width: 100%;
+}
+.links {
+    float: right;
+    margin-right: 150px;
+    margin-top: 40px;
+}
+.links a {
+    padding: 15px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+.welcome {
+    text-align: center;
+    margin-top: 200px;
+}
+.welcome .welcome-to {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.welcome h2 {
+    font-size: 76px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+.welcome p {
+    font-size: 24px;
+    margin-bottom: 50px;
+    color: white;
+}
+.welcome .link-new {
+    margin-bottom: 100px;
+}
+.welcome .link-new .link1 {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: #8E7754;
+    color: white;
+    border: solid #8E7754;
+    margin-bottom: 20px;
+}
+.welcome .link-new .link2{
+    border-radius: 10px;
+    border: solid white 2px;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 20px;
+    color: white;
+}
+.welcome .border .no2ta {
+    height: 55px;
+    width: 30px;
+    border-radius: 25px;
+    border: white solid 1px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0);
+    display: inline-block;
+} 
+.welcome .border .no2ta div {
+    background-color: white;
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+#section2 {
+    height: 600px;
+    margin-top: 100px;
+}
+#section2 .img-2 img {
+    width: 35%;
+    margin-left: 150px;
+    float: left;
+}
+#section2 .info {
+    width: 40%;
+    float: right;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+#section2 .info h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+#section2 .info p {
+    font-size: 17px;
+    color: #686868;
+    line-height: 1.8;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+#section2 .info ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+}
+#section2 .info ul img {
+    width: 50px;
+}
+#section2 .info ul li {
+    padding: 5px;
+}
+#section2 .info ul span {
+    display: flex;
+    margin-left: 68px;
+    margin-top: -40px;
+    padding: 8px;
+    font-size: 17px;
+    color: #686868;
+}
+.section3 {
+    background-color: #f8f8f8;
+    height: 600px;
+}
+.section3 .ourlocation {
+    width: 40%;
+    float: left;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.section3 .ourlocation h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+.section3 .ourlocation p {
+    line-height: 1.8;
+    color: #686868;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+.section3 .ourlocation .story {
+    margin-top: 20px;
+}
+.section3 .img-3 {
+    width: 35%;
+    float: right;
+    margin-right: 150px;
+    margin-top: 70px;
+}
+.section3 .img-3 img {
+    width: 100%;
+}
+.section4 {
+    height: 600px;
+    margin-top: 100px;
+}
+.section4 .baking {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section4 .baking h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+.section4 .baking p {
+    color: #686868;
+    line-height: 1.8;
+    text-align: center;
+    font-size: 16px;
+}
+.section4 .imgs-baking {
+    text-align: center;
+    margin-left: 100px;
+}
+.section4 .imgs-baking .img4 {
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+}
+.section4 .imgs-baking .img4 img {
+    width: 100%;
+}
+.section4 .imgs-baking .img4 h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 22px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+.section4 .imgs-baking .img4 p {
+    line-height: 2;
+    color: #686868;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+.section5 {
+    margin-top: 100px;
+    background-color: #f8f8f8;
+    padding-bottom: 100px;
+}
+.section5  .info2 {
+    width: 40%;
+    float: left;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.section5 .info2 h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+.section5 .info2 p {
+    line-height: 1.8;
+    color: #686868;
+}
+.section5 .info2 ul {
+    list-style-type: none;
+}
+.section5 .img-5 {
+    width: 35%;
+    float: right;
+    margin-right: 150px;
+    margin-top: 150px;
+}
+.section5 .img-5 img {
+    width: 100%;
+}
+.section5 .info2 ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+}
+.section5 .info2 ul img {
+    width: 50px;
+}
+.section5 .info2 ul li {
+    padding: 5px;
+}
+.section5 .info2 ul span {
+    display: flex;
+    margin-left: 68px;
+    margin-top: -40px;
+    padding: 8px;
+    font-size: 17px;
+    color: #686868;
+}
+.section6 {
+    background-color: #403d38;
+    height: 400px;
+    /* margin-top: 100px; */
+}
+.section6 .about {
+    width: 20%;
+    float: left;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.section6 .about h2 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+.section6 .about p {
+    color: #969696;
+    line-height: 2;
+}
+.section6 .about .champ {
+    margin-top: 20px;
+}
+.section6 .Whywe{
+    width: 20%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+.section6 .Whywe h2 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+.section6 .Whywe p {
+    color: #969696;
+    line-height: 2;
+}
+.section6 .Whywe hr {
+    display: block; 
+    height: 1px;
+    border: 0;
+    background-color: #403d38;
+    color: #403d38;
+}
+.section6 .Opening {
+    width: 20%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+.section6 .Opening h2 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+.section6 .Opening p {
+    line-height: 2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #969696;
+}
+.section6 .Opening hr {
+    display: block; 
+    height: 1px;
+    border: 0;
+    background-color: #403d38;
+    color: #403d38;
+}
+.section6 .Contact {
+    width: 20%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 70px;
+    background-image: url(../Images/contact-details-map.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+.section6 .Contact h2 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+.section6 .Contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+}
+.section6 .Contact ul img {
+    width: 35px;
+}
+.section6 .Contact ul li {
+    padding: 5px;
+}
+.section6 .Contact ul a {
+    display: flex;
+    margin-left: 68px;
+    margin-top: -40px;
+    padding: 8px;
+    font-size: 17px;
+    color: #969696;
+    text-decoration: none;
+}
+.section6 .Contact ul span {
+    display: flex;
+    margin-left: 68px;
+    margin-top: -40px;
+    padding: 8px;
+    font-size: 17px;
+    color: #969696;
+}
+.section7 {
+    background-color: #353330;
+    text-align: center;
+}
+.section7 img {
+    margin-top: 30px;
+}
+.section7 p {
+    margin-top: 30px;
+    color: #686868;
+}
+.section7 .a5rsora {
+    width: 200px;
+}
+
+
+
