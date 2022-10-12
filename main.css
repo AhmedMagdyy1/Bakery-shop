@@ -16,7 +16,7 @@ nav {
     background-color: transparent;
 }
 .home {
-    background-image: url(../Images/drew-coffman-1872.jpg);
+    background-image: url(Images/drew-coffman-1872.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center center;
